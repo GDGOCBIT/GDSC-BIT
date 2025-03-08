@@ -12,7 +12,7 @@ export default function Footer () {
           <button
             onClick={() => {
               window.open(
-                'https://gdsc.community.dev/bengal-institute-of-technology/'
+                'https://gdg.community.dev/gdg-on-campus-bengal-institute-of-technology-kolkata-india/'
               )
             }}
             id='join-now-btn'

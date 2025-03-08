@@ -2,22 +2,22 @@ export const socialLinks = [
   {
     text: 'Community',
     icon: "/gdsc_logo.png",
-    link: 'https://gdsc.community.dev/bengal-institute-of-technology/'
+    link: 'https://gdg.community.dev/gdg-on-campus-bengal-institute-of-technology-kolkata-india/'
   },
   {
     text: 'Instagram',
     icon: "/insta.png",
-    link: 'https://www.instagram.com/gdsc.bit/'
+    link: 'https://www.instagram.com/gdgocbit'
   },
   {
     text: 'LinkedIn',
     icon: "/linkedin.png",
-    link: 'https://www.linkedin.com/company/97886448/admin/feed/posts/'
+    link: 'https://www.linkedin.com/company/gdgocbit'
   },
   {
     text: 'GitHub',
     icon: "/github.png",
-    link: 'https://github.com/BIT-GDSC'
+    link: 'https://github.com/GDGOCBIT/GDSC-BIT'
   },
   {
     text: 'Discord',
@@ -27,6 +27,6 @@ export const socialLinks = [
   {
     text: 'X.com',
     icon: "/x.png",
-    link: 'https://twitter.com/gdscbit'
+    link: 'https://x.com/gdgocbit'
   }
 ]

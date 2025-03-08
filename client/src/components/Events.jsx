@@ -47,6 +47,8 @@ export default function Events() {
 
       {/* event card */}
       <div className={`event-cards-container active-${active}`}>
+      
+      {/* First cards group for upcoming events. */}
         <div
           className={`event-center-container card-container-0 ${
             active == 0 ? 'active' : ''
@@ -118,6 +120,8 @@ export default function Events() {
             </div>
           </div>
         </div>
+
+        {/* Second cards group for live events. */}
         <div
           className={`event-center-container card-container-1 ${
             active == 1 ? 'active' : ''
@@ -189,6 +193,8 @@ export default function Events() {
             </div>
           </div>
         </div>
+
+        {/* Third cards group for past events. */}
         <div
           className={`event-center-container card-container-2 ${
             active == 2 ? 'active' : ''

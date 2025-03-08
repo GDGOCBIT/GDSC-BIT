@@ -17,7 +17,6 @@ exports.userRegisterCredential = async (req, res) => {
                 msg: "User already exists!",
             });
         }
-
         const randomOTP = generateOTP(5);
         const otpCreatedAt = new Date();
 
@@ -52,6 +51,7 @@ exports.userRegisterCredential = async (req, res) => {
         });
     }
     catch (error) {
+        console.log(error)
         res.status(500).json({
             success: false,
             msg: "Something went wrong... Try again later!"
